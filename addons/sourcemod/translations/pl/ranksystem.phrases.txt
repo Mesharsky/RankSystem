@@ -1,0 +1,207 @@
+"Phrases"
+{
+    // COMMANDS SECTION
+    "Command No Permissions"
+    {
+        "pl"    "Nie masz uprawnień by użyć tej komendy. Skontaktuj się z administratorem serwera"
+    }
+    "Command Add Points Invalid Params"
+    {
+        "pl"    "Nieprawidłowe użycie komendy. Prawidłowe użycie: !dodajpunkty <gracz> <punkty>"
+    }
+    "Command Remove Points Invalid Params"
+    {
+        "pl"    "Nieprawidłowe użycie komendy. Prawidłowe użycie: !zabierzpunkty <gracz> <punkty>"
+    }
+    "Command Set Points Invalid Params"
+    {
+        "pl"    "Nieprawidłowe użycie komendy. Prawidłowe użycie: !ustawpunkty <gracz> <punkty>"
+    }
+    "Command Points Invalid Amount"
+    {
+        "pl"    "Wprowadzona ilość punktów jest nieprawidłowa. Ilość punktów musi być większa niż 0 i nie może być na minusie"
+    }
+    "Command Add Points Admin Notify"
+    {
+        "#format"   "{1:s},{2:i}"
+        "pl"    "Pomyślnie dodałeś graczowi: {lightred}{1}{default} - {green}{2} {default}punktów"
+    }
+    "Command Add Points Player Notify"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Właśnie otrzymałeś od {darkred}ADMINISTRATORA{default} - {green}{1} {default}punktów"
+    }
+    "Command Remove Points Admin Notify"
+    {
+        "#format"   "{1:s},{2:i}"
+        "pl"    "Pomyślnie zabrałeś graczowi: {lightred}{1}{default} - {darkred}{2} {default}punktów"
+    }
+    "Command Remove Points Player Notify"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Jeden z {darkred}ADMINISTRATORÓW{default} zabrał tobie - {darkred}{1} {default}punktów"
+    }
+    "Command Set Points Admin Notify"
+    {
+        "#format"   "{1:s},{2:i}"
+        "pl"    "Pomyślnie ustawiłeś graczowi: {lightred}{1}{default} - {green}{2} {default}punktów"
+    }
+    "Command Set Points Player Notify"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Jeden z {darkred}ADMINISTRATORÓW{default} ustawił ilość twoich punktów na: - {green}{1}"
+    }
+
+    // AWARD MESSAGES SECTION
+    "Award Add Points Kill Vip"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Jako gracz {orange}VIP {default}otrzymujesz {green}{1} {default}punkty za - {darkred}Zabójstwo"
+    }
+    "Award Add Points Kill"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Właśnie otrzymałeś {green}{1} {default}punkt za - {darkred}Zabójstwo"
+    }
+
+    "Remove Points Death Vip"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Jako gracz {orange}VIP {default}tracisz tylko {darkred}{1} {default}punkt za - {darkred}Śmierć"
+    }
+    "Remove Points Death"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Właśnie straciłeś {darkred}{1} {default}punkty za - {darkred}Śmierć"
+    }
+
+    "Award Add Points HeadShot Vip"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Jako gracz {orange}VIP {default}otrzymujesz {green}{1} {default}punkty za - {darkred}HeadShot'a"
+    }
+    "Award Add Points HeadShot"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Właśnie otrzymałeś {green}{1} {default}punkty za - {darkred}HeadShot'a"
+    }
+
+    "Award Add Points Assist Vip"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Jako gracz {orange}VIP {default}otrzymujesz {green}{1} {default}punkty za - {darkred}Asyste Przy Zabójstwie"
+    }
+    "Award Add Points Assist"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Właśnie otrzymałeś {green}{1} {default}punkt za - {darkred}Asyste Przy Zabójstwie"
+    }
+
+    "Award Add Points Mvp Vip"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Jako gracz {orange}VIP {default}otrzymujesz {green}{1} {default}punktów za - {darkred}Bycie MVP"
+    }
+    "Award Add Points Mvp"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Właśnie otrzymałeś {green}{1} {default}punkty za - {darkred}Bycie MVP"
+    }
+
+    "Award Add Points Bomb Planted Vip"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Jako gracz {orange}VIP {default}otrzymujesz {green}{1} {default}punkty za - {darkred}Podłożenie Bomby"
+    }
+    "Award Add Points Bomb Planted"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Właśnie otrzymałeś {green}{1} {default}punkty za - {darkred}Podłożenie Bomby"
+    }
+
+    "Award Add Points Bomb Defused Vip"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Jako gracz {orange}VIP {default}otrzymujesz {green}{1} {default}punkty za - {darkred}Rozbrojenie Bomby"
+    }
+    "Award Add Points Bomb Defused"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Właśnie otrzymałeś {green}{1} {default}punkty za - {darkred}Rozbrojenie Bomby"
+    }
+
+    "Award Add Points Won Round Vip"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Jako gracz {orange}VIP {default}otrzymujesz {green}{1} {default}punkty za - {darkred}Wygranie Rundy"
+    }
+    "Award Add Points Won Round"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Właśnie otrzymałeś {green}{1} {default}punkt za - {darkred}Wygranie Rundy"
+    }
+
+    "Award Add Points Knife Kill Vip"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Jako gracz {orange}VIP {default}otrzymujesz {green}{1} {default}punktów za - {darkred}Zabójstwo z Noża"
+    }
+    "Award Add Points Knife Kill"
+    {
+        "#format"   "{1:i}"
+        "pl"    "Właśnie otrzymałeś {green}{1} {default}punktów za - {darkred}Zabójstwo z Noża"
+    }
+
+    // RANK CHANGES MESSAGES
+    "Player Rank Up"
+    {
+        "#format"   "{1:s}"
+        "pl"    "Gratulacje, właśnie zostałeś awansowany do rangi: {green}{1}"
+    }
+    "Player Rank Up Notify All"
+    {
+        "#format"   "{1:s},{2:s}"
+        "pl"    "Gracz: {lightred}{1}{default}, właśnie awansował do rangi: {green}{2}"
+    }
+    "Player Rank Down"
+    {
+        "#format"   "{1:s}"
+        "pl"    "Niestety, zostałeś zdegradowany do rangi: {darkred}{1}"
+    }
+    "Player Rank Down Notify All"
+    {
+        "#format"   "{1:s},{2:s}"
+        "pl"    "Gracz: {lightred}{1}{default}, został zdegradowany do rangi: {darkred}{2}"
+    }
+    "Player Rank Changed"
+    {
+        "#format"   "{1:s}"
+        "pl"    "Twoja ranga uległa zmianie, twoja nowa ranga to: {green}{1}"
+    }
+    "Player Rank Notify All"
+    {
+        "#format"   "{1:s},{2:s}"
+        "pl"    "Graczowi: {lightred}{1}{default}, zmieniła się ranga na: {green}{2}"
+    }
+
+    // MENUS
+    "Main Menu Title Vip"
+    {
+        "#format"   "{1:s},{2:s},{3:s},{4:s},{5:s},{6:s},{7:i},{8:s},{9:i},{10:s}"
+        "pl"    "Witaj, {1}{2}Status VIP: Aktywny{3}❢◥ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ◤❢{4}▸ Aktualna Ranga: [ {5} ]{6}▸ Posiadane Punkty: [ {7} ]{8}▸ Punkty potrzebne do awansu: [ {9} ]{10}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    }
+    "Main Menu Title"
+    {
+        "#format"   "{1:s},{2:s},{3:s},{4:s},{5:s},{6:s},{7:i},{8:s},{9:i},{10:s}"
+        "pl"    "Witaj, {1}{2}Status VIP: Nieaktywny{3}❢◥ ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ◤❢{4}▸ Aktualna Ranga: [ {5} ]{6}▸ Posiadane Punkty: [ {7} ]{8}▸ Punkty potrzebne do awansu: [ {9} ]{10}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+    }
+
+    "Main Menu Scoreboard Ranks"
+    {
+        "pl"    "Przejdź do ➛ Menu Rang Serwerowych"
+    }
+    "Main Menu Ranks"
+    {
+        "pl"    "Przejdź do ➛ Menu Rankingu / Statystyk"
+    }
+}
